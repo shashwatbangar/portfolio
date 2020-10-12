@@ -1,0 +1,147 @@
+.mb-4 {
+  position: absolute;
+  top: 500px;
+  left: 100px;
+}
+
+.home-img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.btn1 {
+  position: absolute;
+  bottom: 50px;
+  left: 450px;
+}
+
+.btn2 {
+  position: absolute;
+  bottom: 50px;
+  left: 730px;
+}
+
+
+.about {
+  font-family: 'Permanent Marker', cursive;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+
+.short-des1 {
+  font-family: 'Delius', cursive;
+  color: grey;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+.short-des2 {
+  font-family: 'Delius', cursive;
+  color: grey;
+  position: absolute;
+  top: 230px;
+  left: 50px;
+}
+
+.about-para {
+  font-family: 'Comic Neue', cursive;
+  color: grey;
+  position: absolute;
+  top: 280px;
+  left: 50px;
+}
+
+.my-image {
+  position: absolute;
+  top: 80px;
+  right: 100px;
+  height: 500px;
+  width: 700px;
+}
+
+.fa-instagram {
+  position: absolute;
+  top: 550px;
+  left: 50px;
+}
+
+.fa-twitter {
+  position: absolute;
+  top: 550px;
+  left: 90px;
+}
+
+.fa-linkedin-in {
+  position: absolute;
+  top: 550px;
+  left: 130px;
+}
+
+/* contact page */
+.contact {
+font-family: 'Permanent Marker', cursive;
+position: absolute;
+top: 100px;
+left: 100px;
+}
+
+.insta {
+  position: absolute;
+  top: 220px;
+  left: 180px;
+  color: Violet;
+}
+
+.twitter {
+  position: absolute;
+  top: 320px;
+  left: 180px;
+  color: DodgerBlue;
+}
+
+.linkedin {
+  position: absolute;
+  top: 420px;
+  left: 180px;
+  color:#3F729B;
+}
+
+.image-size {
+  width: 50px;
+  height: 50px;
+}
+
+.insta-img {
+  position: absolute;
+  top: 210px;
+  left: 100px;
+}
+
+.twitter-img {
+  position: absolute;
+  top: 310px;
+  left: 100px;
+}
+
+.linkedin-img {
+  position: absolute;
+  top: 410px;
+  left: 100px;
+}
+
+.contact-img {
+  width: 100%;
+  height: 1200px;
+}
+
+
+/* .design {
+  position: absolute;
+  top : 750px;
+  bottom: 1px;
+  left: 550px;
+  margin-bottom: 0;
+} */
