@@ -15,6 +15,15 @@ mongoose.connect("mongodb://localhost:27017/myDB", {
   useNewUrlParser: true, useUnifiedTopology: true
 });
 
+const emailSchema = {
+  name : String,
+  email : String,
+  subject: String,
+  message: String
+  }
+
+const Email = mongoose.model("Email",emailSchema);
+
 app.get("/",function(req,res){
   res.render("home");
 });
@@ -28,21 +37,20 @@ app.get("/about",function(req,res){
 })
 
 
-app.post("/about",function(req,res){
-  res.render("about");
+app.post("/home",function(req,res){
+  const email = new Email({
+    name: req.body.name,
+    email: req.body.email,
+    subject: req.body.subject,
+    message: req.body.message
 });
 
-app.post("/contact",function(req,res){
-  res.render("contact");
+email.save();
+res.redirect("home");
+
 });
 
 
-
-
-
-
-
-
-app.listen(3000,function(req,res){
-  console.log("server started at port 3000");
+app.listen(3000, function() {
+  console.log("Server started on port 3000.");
 });

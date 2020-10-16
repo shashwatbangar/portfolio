@@ -1,147 +1,187 @@
-.mb-4 {
-  position: absolute;
-  top: 500px;
-  left: 100px;
+/* nav-bar edit */
+
+.navbar-brand {
+  left: 200px;
 }
 
-.home-img {
+.nav-link {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+/* nav-bar edit end */
+
+
+
+/* home section style */
+
+.bgimg-1 {
+  background-image: url("/koi-fish.png");
+  height: 720px;
+  width: 1440px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body, html {
   height: 100%;
-  width: 100%;
-  position: relative;
+  color: #777;
+  line-height: 1.8;
 }
 
-.btn1 {
-  position: absolute;
-  bottom: 50px;
-  left: 450px;
+/* home section style */
+
+
+
+/* about section style */
+
+.about-text {
+  margin-left:  50px;
 }
 
-.btn2 {
-  position: absolute;
-  bottom: 50px;
-  left: 730px;
+.about-heading {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
+.about-sub-heading {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
 
-.about {
-  font-family: 'Permanent Marker', cursive;
-  position: absolute;
-  top: 100px;
-  left: 50px;
 }
 
-.short-des1 {
-  font-family: 'Delius', cursive;
+.description {
+  text-align: center;
+  margin-left: 71px;
+  margin-right: 71px;
   color: grey;
-  position: absolute;
-  top: 200px;
-  left: 50px;
+  font-size: 1.5rem;
 }
 
-.short-des2 {
-  font-family: 'Delius', cursive;
-  color: grey;
+.short-des {
   position: absolute;
-  top: 230px;
-  left: 50px;
+  margin-top: 80px;
+  margin-left: 80px;
+  color: grey;
+  font-size: 1.5rem;
 }
 
 .about-para {
-  font-family: 'Comic Neue', cursive;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 80px;
+  margin-right: 80px;
   color: grey;
-  position: absolute;
-  top: 280px;
-  left: 50px;
 }
 
-.my-image {
+.about-image {
   position: absolute;
-  top: 80px;
-  right: 100px;
+  height: 400px;
+  width: 500px;
+  right: 50px;
+  margin-top: 80px;
+  margin-right: 80px;
+}
+
+
+/* about section style ends */
+
+#my-skills {
+  margin-top: 600px;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.skill-heading {
+  font-size: 2rem;
+}
+
+.w3-wide {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+}
+
+.w3-container {
+  margin-bottom: 20px;
+}
+
+.music {
+  margin-bottom: 100px;
+}
+
+.w3-quarter {
+  width: 1440px;
+}
+
+.w3-row {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+
+
+/* my-skills section style end */
+
+/* my-life section style starts */
+
+.bgimg-2 {
+  background-image: url("/stingray.png");
   height: 500px;
-  width: 700px;
+  width: 1440px;
 }
 
-.fa-instagram {
-  position: absolute;
-  top: 550px;
-  left: 50px;
+.my-photos {
+  margin-bottom: 30px;
 }
 
-.fa-twitter {
-  position: absolute;
-  top: 550px;
-  left: 90px;
+.my-work-text {
+  margin: 80px 40px;
 }
 
-.fa-linkedin-in {
-  position: absolute;
-  top: 550px;
-  left: 130px;
+.my-project-text {
+  color: grey;
+  margin: 80px 40px;
 }
 
-/* contact page */
-.contact {
-font-family: 'Permanent Marker', cursive;
-position: absolute;
-top: 100px;
-left: 100px;
+.my-projectphotos {
+  margin-bottom: 80px;
 }
 
-.insta {
-  position: absolute;
-  top: 220px;
-  left: 180px;
-  color: Violet;
+.paragraph {
+  margin-bottom: 80px;
+  padding-left: 90px;
 }
 
-.twitter {
-  position: absolute;
-  top: 320px;
-  left: 180px;
-  color: DodgerBlue;
+/* my-life section style ends */
+
+/* contact section style starts */
+
+.bgimg-3 {
+  background-image: url("/martin.jpg");
+  height: 800px;
+  width: 1440px;
 }
 
-.linkedin {
-  position: absolute;
-  top: 420px;
-  left: 180px;
-  color:#3F729B;
+.mb-4 {
+  margin : 50px;
+  margin-bottom: 100px;
+
 }
 
-.image-size {
-  width: 50px;
-  height: 50px;
+.fa {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.insta-img {
-  position: absolute;
-  top: 210px;
-  left: 100px;
-}
-
-.twitter-img {
-  position: absolute;
-  top: 310px;
-  left: 100px;
-}
-
-.linkedin-img {
-  position: absolute;
-  top: 410px;
-  left: 100px;
-}
-
-.contact-img {
-  width: 100%;
-  height: 1200px;
-}
-
-
-/* .design {
-  position: absolute;
-  top : 750px;
-  bottom: 1px;
-  left: 550px;
-  margin-bottom: 0;
-} */
+/* contact section style ends */
